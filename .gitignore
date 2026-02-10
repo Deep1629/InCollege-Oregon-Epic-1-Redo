@@ -1,0 +1,23 @@
+# Compiled binary
+incollege
+*.exe
+
+# Output files (generated during runs)
+data/InCollege-Output.txt
+
+# Account persistence (optional - team may want to include/exclude)
+# data/accounts.dat
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
