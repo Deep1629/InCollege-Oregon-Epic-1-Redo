@@ -1,9 +1,6 @@
-# Compiled binary
-incollege
 *.exe
 
-# Output files (generated during runs)
-data/InCollege-Output.txt
+
 
 # Account persistence (optional - team may want to include/exclude)
 # data/accounts.dat

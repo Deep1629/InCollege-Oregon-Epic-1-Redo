@@ -80,6 +80,18 @@ incollege/
     ├── InCollege-Input.txt   # Input file (user commands)
     ├── InCollege-Output.txt  # Output file (generated)
     └── accounts.dat          # Persistent account storage
+── docs/
+    ├── InCollege Software Req - Epic #1.pdf # Software requirements
+── test/
+    ├── TC01_Positive.txt
+    ├── TC02_Positive.txt
+    ├── TC03_Negative.txt
+    ├── TC04_Negative.txt
+    ├── TC05_Edge Case.txt
+    ├── TC06_Edge Case.txt
+
+
+
 ```
 
 ## Input File Format

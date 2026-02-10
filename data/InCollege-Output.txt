@@ -1,0 +1,71 @@
+Welcome to InCollege!
+Log In
+Create New Account
+Enter your choice:
+2
+Please enter your username:
+testuser1
+Please enter your password:
+Test@123
+Account created successfully!
+Welcome to InCollege!
+Log In
+Create New Account
+Enter your choice:
+1
+Please enter your username:
+testuser1
+Please enter your password:
+Test@123
+You have successfully logged in.
+Welcome, testuser1!
+1. Search for a job
+2. Find someone you know
+3. Learn a new skill
+4. Logout
+Enter your choice:
+1
+Job search/internship is under construction.
+Welcome, testuser1!
+1. Search for a job
+2. Find someone you know
+3. Learn a new skill
+4. Logout
+Enter your choice:
+3
+Learn a New Skill:
+1. Python Programming
+2. Data Analysis
+3. Machine Learning
+4. Web Development
+5. Database Management
+6. Go Back
+Enter your choice:
+1
+Python Programming is under construction.
+Learn a New Skill:
+1. Python Programming
+2. Data Analysis
+3. Machine Learning
+4. Web Development
+5. Database Management
+6. Go Back
+Enter your choice:
+6
+Welcome, testuser1!
+1. Search for a job
+2. Find someone you know
+3. Learn a new skill
+4. Logout
+Enter your choice:
+2
+Find someone you know is under construction.
+Welcome, testuser1!
+1. Search for a job
+2. Find someone you know
+3. Learn a new skill
+4. Logout
+Enter your choice:
+4
+Logging out...
+--- END_OF_PROGRAM_EXECUTION ---
