@@ -230,6 +230,11 @@
                    PERFORM LOGIN-PROCESS
                WHEN WS-USER-INPUT(1:1) = "2"
                    PERFORM REGISTRATION-PROCESS
+               WHEN WS-USER-INPUT(1:1) = "9"
+                   MOVE "--- END_OF_PROGRAM_EXECUTION ---" 
+                       TO WS-OUTPUT-LINE
+                   PERFORM WRITE-OUTPUT
+                   MOVE 1 TO WS-PROGRAM-EXIT
                WHEN OTHER
                    MOVE "Invalid choice. Please try again." 
                        TO WS-OUTPUT-LINE
@@ -239,9 +244,11 @@
        DISPLAY-WELCOME-MENU.
            MOVE "Welcome to InCollege!" TO WS-OUTPUT-LINE
            PERFORM WRITE-OUTPUT
-           MOVE "Log In" TO WS-OUTPUT-LINE
+           MOVE "1. Log In" TO WS-OUTPUT-LINE
            PERFORM WRITE-OUTPUT
-           MOVE "Create New Account" TO WS-OUTPUT-LINE
+           MOVE "2. Create New Account" TO WS-OUTPUT-LINE
+           PERFORM WRITE-OUTPUT
+           MOVE "9. Exit" TO WS-OUTPUT-LINE
            PERFORM WRITE-OUTPUT
            MOVE "Enter your choice: " TO WS-OUTPUT-LINE
            PERFORM WRITE-OUTPUT.
@@ -560,10 +567,7 @@
       *================================================================*
        
        LOGOUT-PROCESS.
-      *    DM (USF2-133): Logout terminates program
+      *    DM (USF2-133): Logout returns to main menu
            MOVE "Logging out..." TO WS-OUTPUT-LINE
            PERFORM WRITE-OUTPUT
-           MOVE "--- END_OF_PROGRAM_EXECUTION ---" TO WS-OUTPUT-LINE
-           PERFORM WRITE-OUTPUT
-           MOVE 0 TO WS-LOGGED-IN
-           MOVE 1 TO WS-PROGRAM-EXIT.
+           MOVE 0 TO WS-LOGGED-IN.
