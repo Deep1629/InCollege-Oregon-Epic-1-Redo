@@ -1,0 +1,73 @@
+Welcome to InCollege!
+1. Log In
+2. Create New Account
+9. Exit
+Enter your choice: 
+2
+Please enter your username: 
+edgecase_1
+Please enter your password: 
+EdgPass001!
+Account created successfully!
+Welcome to InCollege!
+1. Log In
+2. Create New Account
+9. Exit
+Enter your choice: 
+2
+Please enter your username: 
+edgecase_2
+Please enter your password: 
+EdgPass002@
+Account created successfully!
+Welcome to InCollege!
+1. Log In
+2. Create New Account
+9. Exit
+Enter your choice: 
+2
+Please enter your username: 
+edgecase_3
+Please enter your password: 
+EdgPass003#
+Account created successfully!
+Welcome to InCollege!
+1. Log In
+2. Create New Account
+9. Exit
+Enter your choice: 
+2
+Please enter your username: 
+edgecase_4
+Please enter your password: 
+EdgPass004$
+Account created successfully!
+Welcome to InCollege!
+1. Log In
+2. Create New Account
+9. Exit
+Enter your choice: 
+2
+Please enter your username: 
+edgecase_5
+Please enter your password: 
+EdgPass005%
+Account created successfully!
+Welcome to InCollege!
+1. Log In
+2. Create New Account
+9. Exit
+Enter your choice: 
+2
+Please enter your username: 
+edgecase_6
+Please enter your password: 
+EdgPass006^
+All permitted accounts have been created, please come back later
+Welcome to InCollege!
+1. Log In
+2. Create New Account
+9. Exit
+Enter your choice: 
+9
+--- END_OF_PROGRAM_EXECUTION ---

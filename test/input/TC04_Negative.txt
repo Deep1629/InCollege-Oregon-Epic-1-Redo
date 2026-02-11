@@ -1,0 +1,10 @@
+2
+badpass_user
+short
+2
+another_user
+NoSpecial1
+2
+lastbad_user
+NoDigitPass!
+9
