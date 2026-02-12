@@ -447,6 +447,12 @@
        
        POST-LOGIN-MENU.
            MOVE 1 TO WS-LOGGED-IN
+           MOVE SPACES TO WS-OUTPUT-LINE
+           STRING "Welcome, " DELIMITED SIZE
+                  FUNCTION TRIM(WS-CURRENT-USER) DELIMITED SPACE
+                  "!" DELIMITED SIZE
+                  INTO WS-OUTPUT-LINE
+           PERFORM WRITE-OUTPUT
            PERFORM UNTIL NOT USER-LOGGED-IN OR EXIT-PROGRAM
                PERFORM DISPLAY-POST-LOGIN-OPTIONS
                PERFORM READ-USER-INPUT
@@ -481,12 +487,6 @@
        
        DISPLAY-POST-LOGIN-OPTIONS.
       *    TM-TODO (USF2-128): Post-login menu display
-           MOVE SPACES TO WS-OUTPUT-LINE
-           STRING "Welcome, " DELIMITED SIZE
-                  FUNCTION TRIM(WS-CURRENT-USER) DELIMITED SPACE
-                  "!" DELIMITED SIZE
-                  INTO WS-OUTPUT-LINE
-           PERFORM WRITE-OUTPUT
            MOVE "1. Search for a job" TO WS-OUTPUT-LINE
            PERFORM WRITE-OUTPUT
            MOVE "2. Find someone you know" TO WS-OUTPUT-LINE
@@ -571,3 +571,4 @@
            MOVE "Logging out..." TO WS-OUTPUT-LINE
            PERFORM WRITE-OUTPUT
            MOVE 0 TO WS-LOGGED-IN.
+
