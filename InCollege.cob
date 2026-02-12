@@ -324,8 +324,7 @@
        REGISTRATION-PROCESS.
       *    TM-TODO (USF2-121, USF2-124): Check account limit
            IF WS-ACCOUNT-COUNT >= WS-MAX-ACCOUNTS
-               MOVE "All permitted accounts have been created, please c
-      -            "ome back later" TO WS-OUTPUT-LINE
+               MOVE "All permitted accounts have been created, please come back later" TO WS-OUTPUT-LINE
                PERFORM WRITE-OUTPUT
                EXIT PARAGRAPH
            END-IF
@@ -585,4 +584,5 @@
            MOVE "Logging out..." TO WS-OUTPUT-LINE
            PERFORM WRITE-OUTPUT
            MOVE 0 TO WS-LOGGED-IN.
+
 
