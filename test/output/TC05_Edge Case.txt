@@ -5,9 +5,9 @@ Welcome to InCollege!
 Enter your choice: 
 2
 Please enter your username: 
-edgecase_1
+EdgeUser1
 Please enter your password: 
-EdgPass001!
+EdgePass1!
 Account created successfully!
 Welcome to InCollege!
 1. Log In
@@ -16,9 +16,9 @@ Welcome to InCollege!
 Enter your choice: 
 2
 Please enter your username: 
-edgecase_2
+EdgeUser2
 Please enter your password: 
-EdgPass002@
+EdgePass2@
 Account created successfully!
 Welcome to InCollege!
 1. Log In
@@ -27,9 +27,9 @@ Welcome to InCollege!
 Enter your choice: 
 2
 Please enter your username: 
-edgecase_3
+EdgeUser3
 Please enter your password: 
-EdgPass003#
+EdgePass3#
 Account created successfully!
 Welcome to InCollege!
 1. Log In
@@ -38,9 +38,9 @@ Welcome to InCollege!
 Enter your choice: 
 2
 Please enter your username: 
-edgecase_4
+EdgeUser4
 Please enter your password: 
-EdgPass004$
+EdgePass4$
 Account created successfully!
 Welcome to InCollege!
 1. Log In
@@ -49,9 +49,9 @@ Welcome to InCollege!
 Enter your choice: 
 2
 Please enter your username: 
-edgecase_5
+EdgeUser5
 Please enter your password: 
-EdgPass005%
+EdgePass5%
 Account created successfully!
 Welcome to InCollege!
 1. Log In
@@ -60,9 +60,9 @@ Welcome to InCollege!
 Enter your choice: 
 2
 Please enter your username: 
-edgecase_6
+AtMaxLimit
 Please enter your password: 
-EdgPass006^
+EdgePass6^
 All permitted accounts have been created, please come back later
 Welcome to InCollege!
 1. Log In
