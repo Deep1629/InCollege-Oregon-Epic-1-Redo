@@ -378,7 +378,11 @@
                WS-ACCT-PASSWORD(WS-ACCOUNT-COUNT)
            
            MOVE "Account created successfully!" TO WS-OUTPUT-LINE
-           PERFORM WRITE-OUTPUT.
+           PERFORM WRITE-OUTPUT
+           
+      *    Auto-login after registration
+           MOVE WS-INPUT-USERNAME TO WS-CURRENT-USER
+           PERFORM POST-LOGIN-MENU.
 
       *================================================================*
       * PASSWORD VALIDATION (TM-TODO: USF2-122)
