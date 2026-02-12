@@ -184,11 +184,14 @@
                        AT END
                            EXIT PERFORM
                        NOT AT END
-                           ADD 1 TO WS-ACCOUNT-COUNT
-                           MOVE AR-USERNAME TO 
-                               WS-ACCT-USERNAME(WS-ACCOUNT-COUNT)
-                           MOVE AR-PASSWORD TO 
-                               WS-ACCT-PASSWORD(WS-ACCOUNT-COUNT)
+      *                    Skip empty records
+                           IF AR-USERNAME NOT = SPACES
+                               ADD 1 TO WS-ACCOUNT-COUNT
+                               MOVE AR-USERNAME TO 
+                                   WS-ACCT-USERNAME(WS-ACCOUNT-COUNT)
+                               MOVE AR-PASSWORD TO 
+                                   WS-ACCT-PASSWORD(WS-ACCOUNT-COUNT)
+                           END-IF
                    END-READ
                END-PERFORM
                CLOSE ACCOUNTS-FILE
@@ -334,6 +337,13 @@
                EXIT PARAGRAPH
            END-IF
            MOVE FUNCTION TRIM(WS-USER-INPUT) TO WS-INPUT-USERNAME
+           
+      *    Check for blank username
+           IF WS-INPUT-USERNAME = SPACES
+               MOVE "Username cannot be blank." TO WS-OUTPUT-LINE
+               PERFORM WRITE-OUTPUT
+               EXIT PARAGRAPH
+           END-IF
            
       *    Check for duplicate username
            PERFORM VARYING WS-INDEX FROM 1 BY 1 

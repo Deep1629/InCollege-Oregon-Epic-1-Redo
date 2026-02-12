@@ -59,10 +59,6 @@ Welcome to InCollege!
 9. Exit
 Enter your choice: 
 2
-Please enter your username: 
-AtMaxLimit
-Please enter your password: 
-EdgePass6^
 All permitted accounts have been created, please come back later
 Welcome to InCollege!
 1. Log In
