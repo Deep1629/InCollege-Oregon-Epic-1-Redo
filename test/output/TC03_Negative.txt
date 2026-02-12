@@ -15,3 +15,22 @@ Please enter your password:
 WrongPass123!
 Incorrect username/password, please try again
 Please enter your username: 
+testuser1
+Please enter your password: 
+Test@123
+You have successfully logged in.
+Welcome, testuser1!
+1. Search for a job
+2. Find someone you know
+3. Learn a new skill
+4. Logout
+Enter your choice: 
+4
+Logging out...
+Welcome to InCollege!
+1. Log In
+2. Create New Account
+9. Exit
+Enter your choice: 
+9
+--- END_OF_PROGRAM_EXECUTION ---
