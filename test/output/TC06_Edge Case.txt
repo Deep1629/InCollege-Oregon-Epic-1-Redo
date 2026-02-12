@@ -12,11 +12,6 @@ Welcome to InCollege!
 Enter your choice: 
 1
 Please enter your username: 
-empty_user
-Please enter your password: 
-NoPass
-Incorrect username/password, please try again
-Please enter your username: 
 testuser1
 Please enter your password: 
 Test@123
@@ -36,18 +31,8 @@ Learn a New Skill:
 5. Database Management
 6. Go Back
 Enter your choice: 
-2
-Data Analysis is under construction.
-Learn a New Skill:
-1. Python Programming
-2. Data Analysis
-3. Machine Learning
-4. Web Development
-5. Database Management
-6. Go Back
-Enter your choice: 
-3
-Machine Learning is under construction.
+1
+Python Programming is under construction.
 Learn a New Skill:
 1. Python Programming
 2. Data Analysis
@@ -58,6 +43,16 @@ Learn a New Skill:
 Enter your choice: 
 2
 Data Analysis is under construction.
+Learn a New Skill:
+1. Python Programming
+2. Data Analysis
+3. Machine Learning
+4. Web Development
+5. Database Management
+6. Go Back
+Enter your choice: 
+5
+Database Management is under construction.
 Learn a New Skill:
 1. Python Programming
 2. Data Analysis

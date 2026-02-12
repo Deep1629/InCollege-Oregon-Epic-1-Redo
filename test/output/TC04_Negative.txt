@@ -5,9 +5,9 @@ Welcome to InCollege!
 Enter your choice: 
 2
 Please enter your username: 
-badpass_user
+baduser1
 Please enter your password: 
-short
+Pass1!
 Password must be at least 8 characters.
 Welcome to InCollege!
 1. Log In
@@ -16,10 +16,10 @@ Welcome to InCollege!
 Enter your choice: 
 2
 Please enter your username: 
-another_user
+baduser2
 Please enter your password: 
-NoSpecial1
-Password must contain at least one special char.
+NoDigital
+Password must contain at least one digit.
 Welcome to InCollege!
 1. Log In
 2. Create New Account
@@ -27,10 +27,10 @@ Welcome to InCollege!
 Enter your choice: 
 2
 Please enter your username: 
-lastbad_user
+baduser3
 Please enter your password: 
-NoDigitPass!
-Password must contain at least one digit.
+nocapital1!
+Password must contain at least one capital letter.
 Welcome to InCollege!
 1. Log In
 2. Create New Account
